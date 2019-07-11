@@ -1,8 +1,11 @@
 <div class="container">
     <div class="product-listing row">
-        {{#each products }}
-            {{> product-listing }}
-        {{/each}}
+        {{#if products}}
+            {{#each products }}
+                {{> product-listing }}
+            {{/each}}
+        {{else}}
+        {{}}    
     </div>
 </div>
 

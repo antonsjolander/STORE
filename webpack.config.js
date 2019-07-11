@@ -13,12 +13,6 @@ module.exports = {
         path: path.resolve(__dirname, 'public/assets'),
     },
 
-    devServer: {
-        contentBase: path.join(__dirname, 'public'),
-        port: 3000,
-        host: '0.0.0.0'
-    },
-
     module: {
         rules: [
             {
