@@ -40,7 +40,7 @@
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.3.0",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+   
   },
   "dependencies": {
     "classlist-polyfill": "^1.0.3",
