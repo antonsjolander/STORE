@@ -7,3 +7,7 @@ To run the app just clone the repo and run
 after that you just run 
 
 `npm run dev`
+
+Then you just go to http://localhost:5000/ ;) 
+
+(◕‿◕✿)
