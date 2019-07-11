@@ -1,0 +1,31 @@
+.navbar {
+    text-align: center;
+    @media @tablet-up {
+        margin: 2rem 0 3rem;
+    }
+    margin: 2rem 0 1rem;
+    &__logo {
+        @media @tablet-up {
+            max-width: 500px;
+        }
+        max-width: 250px;
+    } 
+    &__navigation {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-transform: uppercase;
+        li {
+            font-weight: bold; 
+            margin: 0 1rem;
+            a {
+                text-decoration: none;
+                &:hover {
+                    border-bottom: 2px solid black
+                }
+                padding-bottom:.5rem; 
+            }
+        }
+    } 
+}

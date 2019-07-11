@@ -1,0 +1,27 @@
+.product-listing {
+    display: grid;
+    margin: 2rem 0;
+    @media @tablet-up {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media @wide-screen-up {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    &__product {
+        cursor: pointer;
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &__inner {
+            // margin: 1rem;
+        }
+        &__name {
+            display: block;
+            
+        }
+    }
+}

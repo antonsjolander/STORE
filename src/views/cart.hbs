@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="product-cart__holder">
+        {{#if products}}
+        <div class="product-cart">
+            {{#each products }}
+                {{> product-cart }}
+            {{/each}}
+        </div>
+        <div class="product-cart__total">
+            <p ><strong>Total: </strong>{{totalPrice}} {{currency}}</p>
+            {{> button text="Pay now" href="/about"}}
+        </div>
+        
+        {{else}}
+            <h1 class="product-cart__empty">Cart empty ;)</h1>
+        {{/if}}
+    </div>
+</div>
